@@ -1,0 +1,15 @@
+= Write a TGA file with Zig
+
+This program demonstrates writing
+https://en.wikipedia.org/wiki/Truevision_TGA[TGA]
+"targa" image files by writing a pretty gradient.
+
+image::foo.tga.png[pretty gradient made by this program]
+
+TGA is easy to write and has wonderfully software support, but there are a
+couple "gotchas" in the header and image data, namely:
+
+* An image "origin" is specified in two places in the header -
+  get it wrong and you'll be scratching your head at the mess on the screen.
+* Pixels are in Blue Green Red order, not RGB.
+
