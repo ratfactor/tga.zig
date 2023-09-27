@@ -1,5 +1,8 @@
 = Write a TGA file with Zig
 
+**MOVED!** Hello, I am moving my repos to http://ratfactor.com/repos/
+and setting them to read-only ("archived") on GitHub. Thank you, _-Dave_
+
 This program demonstrates writing
 https://en.wikipedia.org/wiki/Truevision_TGA[TGA]
 "targa" image files by writing a pretty gradient.
